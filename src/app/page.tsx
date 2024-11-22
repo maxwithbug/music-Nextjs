@@ -4,6 +4,7 @@
 // import RabbitTrack from "@/spline/RabbitTrack";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import WhyChooseUs from "@/components/WhyChooseUs"
 import React from "react";
 
 function page() {
@@ -11,6 +12,7 @@ function page() {
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
       <HeroSection/>
       <FeaturedCourses/>
+      <WhyChooseUs/>
 {/* 
       spline earth
       <div className="grid grid-cols-2 h-screen">
